@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Cell_Platform">
+            <rect key="frame" x="0.0" y="0.0" width="97" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="97" height="161"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uVF-G8-OqW">
+                        <rect key="frame" x="0.0" y="0.0" width="97" height="161"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="uVF-G8-OqW" secondAttribute="trailing" id="D4h-9i-5HM"/>
+                <constraint firstAttribute="bottom" secondItem="uVF-G8-OqW" secondAttribute="bottom" id="fLv-O8-4gh"/>
+                <constraint firstItem="uVF-G8-OqW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ppX-Cj-6MY"/>
+                <constraint firstItem="uVF-G8-OqW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="scM-nr-djf"/>
+            </constraints>
+            <size key="customSize" width="97" height="161"/>
+            <connections>
+                <outlet property="platformImageView" destination="uVF-G8-OqW" id="57S-s5-fzp"/>
+            </connections>
+            <point key="canvasLocation" x="-244" y="4"/>
+        </collectionViewCell>
+    </objects>
+</document>

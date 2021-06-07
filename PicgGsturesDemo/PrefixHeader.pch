@@ -1,0 +1,84 @@
+//
+//  PrefixHeader.pch
+//  PicgGsturesDemo
+//
+//  Created by  CXJ-2021 on 2020/12/26.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <Foundation/Foundation.h>
+#import "UIView+Catrgory.h"
+#import <SDWebImage/SDImageCache.h>
+#import "UIImageView+WebCache.h"
+
+typedef void (^CallBack) (BOOL isError,NSDictionary* json);
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//是否是刘海屏
+//#define iPhoneX ({\
+//float statusBarHeight = 0;\
+//int tmp = 0;\
+//if (@available(iOS 13.0, *)) {\
+//UIStatusBarManager *statusBarManager = [UIApplication sharedApplication].windows.firstObject.windowScene.statusBarManager;\
+//statusBarHeight = statusBarManager.statusBarFrame.size.height;\
+//}else{\
+//statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;\
+//}\
+//if (statusBarHeight > 20) {\
+//tmp = 1;\
+//}else{\
+//tmp = 0;\
+//}\
+//tmp;\
+//})
+
+#define iPhoneX ({\
+int tmp = 0;\
+if (@available(iOS 11.0, *)) {\
+if ([UIApplication sharedApplication].delegate.window.safeAreaInsets.top > 20) {\
+tmp = 1;\
+}else{\
+tmp = 0;\
+}\
+}else{\
+tmp = 0;\
+}\
+tmp;\
+})
+
+
+#define IOS11 ([[UIDevice currentDevice].systemVersion intValue] >= 11 ? YES : NO)
+#define SCREEN_HEIGHT     ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_WIDTH      ([[UIScreen mainScreen] bounds].size.width)
+#define WEAKSELF __weak typeof(&*self) weakSelf = self;
+#define LIGHTFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightLight]
+#define REGULARFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightRegular]
+#define THINFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightThin]
+
+#define KStatusBarHeight [FMManger getStatusBarHight]
+#define KTabBarHeight    (iPhoneX ? 83.f:49.f)
+#define kBarSafeBottomMargin (iPhoneX ? 34.0 : 0)
+
+#define NaviH KStatusBarHeight + 44
+#define MAINSTATUSHEIGHT [FMManger getStatusBarHight]
+#define NAVCENTERY MAINSTATUSHEIGHT + (NaviH - MAINSTATUSHEIGHT)/2.0
+
+/**宽度比例*/
+#define ScaleWidth(__VA_ARGS__)  ([UIScreen mainScreen].bounds.size.width/375)*(__VA_ARGS__)
+
+/**高度比例*/
+#define ScaleHeight(__VA_ARGS__)  ([UIScreen mainScreen].bounds.size.height/667)*(__VA_ARGS__)
+//  适配比例
+#define ADAPTATIONRATIO     SCREEN_HEIGHT / 750.0f
+
+
+
+#define UIColorFromHexA(hexValue, a)     [UIColor colorWithRed:(((hexValue & 0xFF0000) >> 16))/255.0f green:(((hexValue & 0xFF00) >> 8))/255.0f blue:((hexValue & 0xFF))/255.0f alpha:a]
+#define UIColorFromHex(hexValue)        UIColorFromHexA(hexValue, 1.0f)
+
+//
+#define kBaseSegmentHeight 50.0f
+
+
+#endif /* PrefixHeader_pch */

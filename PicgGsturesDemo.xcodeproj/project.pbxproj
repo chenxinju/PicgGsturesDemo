@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524A21B825978AC300FDBA9E /* DayTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21B625978AC300FDBA9E /* DayTagViewController.m */; };
+		524A21B925978AC300FDBA9E /* DayTagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A21B725978AC300FDBA9E /* DayTagViewController.xib */; };
+		524A21C025978D6800FDBA9E /* WaterMarkPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21BE25978D6800FDBA9E /* WaterMarkPopViewController.m */; };
+		524A21C125978D6800FDBA9E /* WaterMarkPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A21BF25978D6800FDBA9E /* WaterMarkPopViewController.xib */; };
+		524A21C825978D7A00FDBA9E /* PlatformPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21C625978D7A00FDBA9E /* PlatformPopViewController.m */; };
+		524A21C925978D7A00FDBA9E /* PlatformPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A21C725978D7A00FDBA9E /* PlatformPopViewController.xib */; };
+		524A21D025983C3000FDBA9E /* Cell_Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21CE25983C3000FDBA9E /* Cell_Platform.m */; };
+		524A21D125983C3000FDBA9E /* Cell_Platform.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524A21CF25983C3000FDBA9E /* Cell_Platform.xib */; };
+		524A21D9259854B600FDBA9E /* GMImageContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D7259854B600FDBA9E /* GMImageContainerView.m */; };
+		524A21DA259854B600FDBA9E /* GMGestureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A21D8259854B600FDBA9E /* GMGestureManager.m */; };
+		88D02631266E192200EB27FB /* WFMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D02630266E192200EB27FB /* WFMAlert.m */; };
+		88D0263A266E1B2A00EB27FB /* UIView+Catrgory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D02639266E1B2A00EB27FB /* UIView+Catrgory.m */; };
+		EE803DE54F334A9A270127CC /* Pods_PicgGsturesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5F374DB6EE7FA93FA6D3E /* Pods_PicgGsturesDemo.framework */; };
+		F605DFD8256F3F5200DD1911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F605DFD7256F3F5200DD1911 /* AppDelegate.m */; };
+		F605DFDB256F3F5200DD1911 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F605DFDA256F3F5200DD1911 /* SceneDelegate.m */; };
+		F605DFDE256F3F5200DD1911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F605DFDD256F3F5200DD1911 /* ViewController.m */; };
+		F605DFE1256F3F5200DD1911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F605DFDF256F3F5200DD1911 /* Main.storyboard */; };
+		F605DFE3256F3F5500DD1911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F605DFE2256F3F5500DD1911 /* Assets.xcassets */; };
+		F605DFE6256F3F5500DD1911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F605DFE4256F3F5500DD1911 /* LaunchScreen.storyboard */; };
+		F605DFE9256F3F5500DD1911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F605DFE8256F3F5500DD1911 /* main.m */; };
+		F6BE8DA62595B942009C7DD7 /* PlatFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BE8DA52595B942009C7DD7 /* PlatFormView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F605DFEF256F3F5500DD1911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F605DFCB256F3F5100DD1911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F605DFD2256F3F5100DD1911;
+			remoteInfo = PicgGsturesDemo;
+		};
+		F605DFFA256F3F5500DD1911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F605DFCB256F3F5100DD1911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F605DFD2256F3F5100DD1911;
+			remoteInfo = PicgGsturesDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5B20C467289FFEFE9BA0C0 /* Pods-PicgGsturesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicgGsturesDemo.release.xcconfig"; path = "Target Support Files/Pods-PicgGsturesDemo/Pods-PicgGsturesDemo.release.xcconfig"; sourceTree = "<group>"; };
+		524A21B1259777C200FDBA9E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		524A21B525978AC300FDBA9E /* DayTagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayTagViewController.h; sourceTree = "<group>"; };
+		524A21B625978AC300FDBA9E /* DayTagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayTagViewController.m; sourceTree = "<group>"; };
+		524A21B725978AC300FDBA9E /* DayTagViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayTagViewController.xib; sourceTree = "<group>"; };
+		524A21BD25978D6800FDBA9E /* WaterMarkPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterMarkPopViewController.h; sourceTree = "<group>"; };
+		524A21BE25978D6800FDBA9E /* WaterMarkPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterMarkPopViewController.m; sourceTree = "<group>"; };
+		524A21BF25978D6800FDBA9E /* WaterMarkPopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WaterMarkPopViewController.xib; sourceTree = "<group>"; };
+		524A21C525978D7A00FDBA9E /* PlatformPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatformPopViewController.h; sourceTree = "<group>"; };
+		524A21C625978D7A00FDBA9E /* PlatformPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlatformPopViewController.m; sourceTree = "<group>"; };
+		524A21C725978D7A00FDBA9E /* PlatformPopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlatformPopViewController.xib; sourceTree = "<group>"; };
+		524A21CD25983C3000FDBA9E /* Cell_Platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cell_Platform.h; sourceTree = "<group>"; };
+		524A21CE25983C3000FDBA9E /* Cell_Platform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cell_Platform.m; sourceTree = "<group>"; };
+		524A21CF25983C3000FDBA9E /* Cell_Platform.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell_Platform.xib; sourceTree = "<group>"; };
+		524A21D5259854B500FDBA9E /* GMImageContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMImageContainerView.h; sourceTree = "<group>"; };
+		524A21D6259854B600FDBA9E /* GMGestureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGestureManager.h; sourceTree = "<group>"; };
+		524A21D7259854B600FDBA9E /* GMImageContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMImageContainerView.m; sourceTree = "<group>"; };
+		524A21D8259854B600FDBA9E /* GMGestureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGestureManager.m; sourceTree = "<group>"; };
+		88D0262F266E192200EB27FB /* WFMAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMAlert.h; sourceTree = "<group>"; };
+		88D02630266E192200EB27FB /* WFMAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFMAlert.m; sourceTree = "<group>"; };
+		88D02638266E1B2A00EB27FB /* UIView+Catrgory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Catrgory.h"; sourceTree = "<group>"; };
+		88D02639266E1B2A00EB27FB /* UIView+Catrgory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Catrgory.m"; sourceTree = "<group>"; };
+		96F5F374DB6EE7FA93FA6D3E /* Pods_PicgGsturesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicgGsturesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A621527E4CFF5FAE0215155E /* Pods-PicgGsturesDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicgGsturesDemo.debug.xcconfig"; path = "Target Support Files/Pods-PicgGsturesDemo/Pods-PicgGsturesDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F605DFD3256F3F5200DD1911 /* PicgGsturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicgGsturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F605DFD6256F3F5200DD1911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F605DFD7256F3F5200DD1911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F605DFD9256F3F5200DD1911 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F605DFDA256F3F5200DD1911 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F605DFDC256F3F5200DD1911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F605DFDD256F3F5200DD1911 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F605DFE0256F3F5200DD1911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F605DFE2256F3F5500DD1911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F605DFE5256F3F5500DD1911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F605DFE7256F3F5500DD1911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F605DFE8256F3F5500DD1911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F605DFEE256F3F5500DD1911 /* PicgGsturesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicgGsturesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F605DFF9256F3F5500DD1911 /* PicgGsturesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicgGsturesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BE8DA42595B942009C7DD7 /* PlatFormView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatFormView.h; sourceTree = "<group>"; };
+		F6BE8DA52595B942009C7DD7 /* PlatFormView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlatFormView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F605DFD0256F3F5100DD1911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE803DE54F334A9A270127CC /* Pods_PicgGsturesDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F605DFEB256F3F5500DD1911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F605DFF6256F3F5500DD1911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A6720EBA46B1164C152AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F5F374DB6EE7FA93FA6D3E /* Pods_PicgGsturesDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		524A21DE259857BB00FDBA9E /* GestureContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				524A21D6259854B600FDBA9E /* GMGestureManager.h */,
+				524A21D8259854B600FDBA9E /* GMGestureManager.m */,
+				524A21D5259854B500FDBA9E /* GMImageContainerView.h */,
+				524A21D7259854B600FDBA9E /* GMImageContainerView.m */,
+			);
+			path = GestureContainerView;
+			sourceTree = "<group>";
+		};
+		F363C2ABB0E16DCAFA9D8535 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A621527E4CFF5FAE0215155E /* Pods-PicgGsturesDemo.debug.xcconfig */,
+				0F5B20C467289FFEFE9BA0C0 /* Pods-PicgGsturesDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F605DFCA256F3F5100DD1911 = {
+			isa = PBXGroup;
+			children = (
+				F605DFD5256F3F5200DD1911 /* PicgGsturesDemo */,
+				F605DFD4256F3F5200DD1911 /* Products */,
+				F363C2ABB0E16DCAFA9D8535 /* Pods */,
+				18A6720EBA46B1164C152AD4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F605DFD4256F3F5200DD1911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F605DFD3256F3F5200DD1911 /* PicgGsturesDemo.app */,
+				F605DFEE256F3F5500DD1911 /* PicgGsturesDemoTests.xctest */,
+				F605DFF9256F3F5500DD1911 /* PicgGsturesDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F605DFD5256F3F5200DD1911 /* PicgGsturesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F6BE8DA32595B912009C7DD7 /* platform */,
+				F605DFD6256F3F5200DD1911 /* AppDelegate.h */,
+				F605DFD7256F3F5200DD1911 /* AppDelegate.m */,
+				F605DFD9256F3F5200DD1911 /* SceneDelegate.h */,
+				F605DFDA256F3F5200DD1911 /* SceneDelegate.m */,
+				88D0262F266E192200EB27FB /* WFMAlert.h */,
+				88D02630266E192200EB27FB /* WFMAlert.m */,
+				88D02638266E1B2A00EB27FB /* UIView+Catrgory.h */,
+				88D02639266E1B2A00EB27FB /* UIView+Catrgory.m */,
+				F605DFDC256F3F5200DD1911 /* ViewController.h */,
+				F605DFDD256F3F5200DD1911 /* ViewController.m */,
+				F605DFDF256F3F5200DD1911 /* Main.storyboard */,
+				F605DFE2256F3F5500DD1911 /* Assets.xcassets */,
+				F605DFE4256F3F5500DD1911 /* LaunchScreen.storyboard */,
+				F605DFE7256F3F5500DD1911 /* Info.plist */,
+				F605DFE8256F3F5500DD1911 /* main.m */,
+				524A21B1259777C200FDBA9E /* PrefixHeader.pch */,
+			);
+			path = PicgGsturesDemo;
+			sourceTree = "<group>";
+		};
+		F6BE8DA32595B912009C7DD7 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				524A21DE259857BB00FDBA9E /* GestureContainerView */,
+				F6BE8DA42595B942009C7DD7 /* PlatFormView.h */,
+				F6BE8DA52595B942009C7DD7 /* PlatFormView.m */,
+				524A21B525978AC300FDBA9E /* DayTagViewController.h */,
+				524A21B625978AC300FDBA9E /* DayTagViewController.m */,
+				524A21B725978AC300FDBA9E /* DayTagViewController.xib */,
+				524A21BD25978D6800FDBA9E /* WaterMarkPopViewController.h */,
+				524A21BE25978D6800FDBA9E /* WaterMarkPopViewController.m */,
+				524A21BF25978D6800FDBA9E /* WaterMarkPopViewController.xib */,
+				524A21C525978D7A00FDBA9E /* PlatformPopViewController.h */,
+				524A21C625978D7A00FDBA9E /* PlatformPopViewController.m */,
+				524A21C725978D7A00FDBA9E /* PlatformPopViewController.xib */,
+				524A21CD25983C3000FDBA9E /* Cell_Platform.h */,
+				524A21CE25983C3000FDBA9E /* Cell_Platform.m */,
+				524A21CF25983C3000FDBA9E /* Cell_Platform.xib */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F605DFD2256F3F5100DD1911 /* PicgGsturesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F605E002256F3F5500DD1911 /* Build configuration list for PBXNativeTarget "PicgGsturesDemo" */;
+			buildPhases = (
+				5D781B1CA245EE6514F8A99A /* [CP] Check Pods Manifest.lock */,
+				F605DFCF256F3F5100DD1911 /* Sources */,
+				F605DFD0256F3F5100DD1911 /* Frameworks */,
+				F605DFD1256F3F5100DD1911 /* Resources */,
+				898A0B5ADC1377DB1A11FB88 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicgGsturesDemo;
+			productName = PicgGsturesDemo;
+			productReference = F605DFD3256F3F5200DD1911 /* PicgGsturesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F605DFED256F3F5500DD1911 /* PicgGsturesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F605E005256F3F5500DD1911 /* Build configuration list for PBXNativeTarget "PicgGsturesDemoTests" */;
+			buildPhases = (
+				F605DFEA256F3F5500DD1911 /* Sources */,
+				F605DFEB256F3F5500DD1911 /* Frameworks */,
+				F605DFEC256F3F5500DD1911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F605DFF0256F3F5500DD1911 /* PBXTargetDependency */,
+			);
+			name = PicgGsturesDemoTests;
+			productName = PicgGsturesDemoTests;
+			productReference = F605DFEE256F3F5500DD1911 /* PicgGsturesDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F605DFF8256F3F5500DD1911 /* PicgGsturesDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F605E008256F3F5500DD1911 /* Build configuration list for PBXNativeTarget "PicgGsturesDemoUITests" */;
+			buildPhases = (
+				F605DFF5256F3F5500DD1911 /* Sources */,
+				F605DFF6256F3F5500DD1911 /* Frameworks */,
+				F605DFF7256F3F5500DD1911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F605DFFB256F3F5500DD1911 /* PBXTargetDependency */,
+			);
+			name = PicgGsturesDemoUITests;
+			productName = PicgGsturesDemoUITests;
+			productReference = F605DFF9256F3F5500DD1911 /* PicgGsturesDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F605DFCB256F3F5100DD1911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F605DFD2256F3F5100DD1911 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F605DFED256F3F5500DD1911 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F605DFD2256F3F5100DD1911;
+					};
+					F605DFF8256F3F5500DD1911 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F605DFD2256F3F5100DD1911;
+					};
+				};
+			};
+			buildConfigurationList = F605DFCE256F3F5100DD1911 /* Build configuration list for PBXProject "PicgGsturesDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F605DFCA256F3F5100DD1911;
+			productRefGroup = F605DFD4256F3F5200DD1911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F605DFD2256F3F5100DD1911 /* PicgGsturesDemo */,
+				F605DFED256F3F5500DD1911 /* PicgGsturesDemoTests */,
+				F605DFF8256F3F5500DD1911 /* PicgGsturesDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F605DFD1256F3F5100DD1911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A21C125978D6800FDBA9E /* WaterMarkPopViewController.xib in Resources */,
+				F605DFE6256F3F5500DD1911 /* LaunchScreen.storyboard in Resources */,
+				F605DFE3256F3F5500DD1911 /* Assets.xcassets in Resources */,
+				524A21B925978AC300FDBA9E /* DayTagViewController.xib in Resources */,
+				524A21D125983C3000FDBA9E /* Cell_Platform.xib in Resources */,
+				F605DFE1256F3F5200DD1911 /* Main.storyboard in Resources */,
+				524A21C925978D7A00FDBA9E /* PlatformPopViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F605DFEC256F3F5500DD1911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F605DFF7256F3F5500DD1911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D781B1CA245EE6514F8A99A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicgGsturesDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898A0B5ADC1377DB1A11FB88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicgGsturesDemo/Pods-PicgGsturesDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicgGsturesDemo/Pods-PicgGsturesDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PicgGsturesDemo/Pods-PicgGsturesDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F605DFCF256F3F5100DD1911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A21D9259854B600FDBA9E /* GMImageContainerView.m in Sources */,
+				F605DFDE256F3F5200DD1911 /* ViewController.m in Sources */,
+				524A21C825978D7A00FDBA9E /* PlatformPopViewController.m in Sources */,
+				88D02631266E192200EB27FB /* WFMAlert.m in Sources */,
+				524A21C025978D6800FDBA9E /* WaterMarkPopViewController.m in Sources */,
+				F605DFD8256F3F5200DD1911 /* AppDelegate.m in Sources */,
+				88D0263A266E1B2A00EB27FB /* UIView+Catrgory.m in Sources */,
+				524A21B825978AC300FDBA9E /* DayTagViewController.m in Sources */,
+				F6BE8DA62595B942009C7DD7 /* PlatFormView.m in Sources */,
+				524A21D025983C3000FDBA9E /* Cell_Platform.m in Sources */,
+				524A21DA259854B600FDBA9E /* GMGestureManager.m in Sources */,
+				F605DFE9256F3F5500DD1911 /* main.m in Sources */,
+				F605DFDB256F3F5200DD1911 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F605DFEA256F3F5500DD1911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F605DFF5256F3F5500DD1911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F605DFF0256F3F5500DD1911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F605DFD2256F3F5100DD1911 /* PicgGsturesDemo */;
+			targetProxy = F605DFEF256F3F5500DD1911 /* PBXContainerItemProxy */;
+		};
+		F605DFFB256F3F5500DD1911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F605DFD2256F3F5100DD1911 /* PicgGsturesDemo */;
+			targetProxy = F605DFFA256F3F5500DD1911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F605DFDF256F3F5200DD1911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F605DFE0256F3F5200DD1911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F605DFE4256F3F5500DD1911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F605DFE5256F3F5500DD1911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F605E000256F3F5500DD1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F605E001256F3F5500DD1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F605E003256F3F5500DD1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A621527E4CFF5FAE0215155E /* Pods-PicgGsturesDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T375P6TJT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PicgGsturesDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = PicgGsturesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.PicgGsturesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F605E004256F3F5500DD1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5B20C467289FFEFE9BA0C0 /* Pods-PicgGsturesDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T375P6TJT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PicgGsturesDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = PicgGsturesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.PicgGsturesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F605E006256F3F5500DD1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicgGsturesDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.PicgGsturesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicgGsturesDemo.app/PicgGsturesDemo";
+			};
+			name = Debug;
+		};
+		F605E007256F3F5500DD1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicgGsturesDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.PicgGsturesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicgGsturesDemo.app/PicgGsturesDemo";
+			};
+			name = Release;
+		};
+		F605E009256F3F5500DD1911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicgGsturesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.PicgGsturesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicgGsturesDemo;
+			};
+			name = Debug;
+		};
+		F605E00A256F3F5500DD1911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PicgGsturesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyt.PicgGsturesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PicgGsturesDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F605DFCE256F3F5100DD1911 /* Build configuration list for PBXProject "PicgGsturesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F605E000256F3F5500DD1911 /* Debug */,
+				F605E001256F3F5500DD1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F605E002256F3F5500DD1911 /* Build configuration list for PBXNativeTarget "PicgGsturesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F605E003256F3F5500DD1911 /* Debug */,
+				F605E004256F3F5500DD1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F605E005256F3F5500DD1911 /* Build configuration list for PBXNativeTarget "PicgGsturesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F605E006256F3F5500DD1911 /* Debug */,
+				F605E007256F3F5500DD1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F605E008256F3F5500DD1911 /* Build configuration list for PBXNativeTarget "PicgGsturesDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F605E009256F3F5500DD1911 /* Debug */,
+				F605E00A256F3F5500DD1911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F605DFCB256F3F5100DD1911 /* Project object */;
+}
